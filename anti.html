@@ -1,0 +1,206 @@
+<!DOCTYPE html><html lang="en"><head>
+<meta charset="UTF-8">
+<meta name="viewport" content="width=device-width, initial-scale=1.0">
+<title>anti�&nbsp;</title>
+<script src="js/21d6882367.js" crossorigin="anonymous" type="9c4767e918d6dd02199a44f3-text/javascript"></script>
+<style>
+        html {
+            height: 100%;
+            width: 100%;
+        }
+        body {
+            background-color: black;
+        }
+        .container {
+            height: fit-content;
+            padding: 15px;
+            width: 400px;
+            position: absolute;
+            top: 0;
+            bottom: 0;
+            left: 0;
+            right: 0;
+            margin: auto;
+            text-align: center;
+            border-width: 1px;
+            border-color: rgba(20, 20, 20, 1);
+            border-style: solid;
+            border-radius: 12px;
+            box-shadow: 0px 0px 20px rgba(10, 10, 10, 0.3);
+            background-color: rgba(10, 10, 10, 0.6);
+            filter: brightness(1.4);
+            backdrop-filter: blur(12px);
+            color: white;
+            display: flex;
+            flex-direction: column;
+            justify-content: center;
+            align-items: center;
+            overflow: hidden;
+        }
+        .banner {
+            height: 142px;
+            width: 400px;
+            border-top-left-radius: 15px;
+            border-top-right-radius: 15px;
+            background-color: rgba(10, 10, 10, 0);
+        }
+        .profile {
+            height: 100px;
+            width: 100px;
+            border-width: 1px;
+            border-color: white;
+            border-style: solid;
+            border-radius: 50%;
+            margin-top: -50px;
+            background-color: black;
+        }
+        .username {
+            font-size: 24px;
+            font-family: sans-serif;
+            font-weight: bold;
+            margin-top: 15px;
+            margin-bottom: 15px;
+        }
+        .description-container {
+            max-width: 425px; 
+            margin: auto;
+        }
+        .description {
+            font-size: 16px;
+            font-family: monospace;
+            color: rgba(255, 255, 255, 0.2);
+            overflow-wrap: break-word;
+            word-wrap: break-word;
+        }
+        .description::selection {
+            color: white;
+        }
+        .discord-info {
+            position: relative;
+            display: inline-block;
+        }
+        .discord-info .discord-info-text {
+            visibility: hidden;
+            opacity: 0;
+            padding: 5px;
+            width: fit-content;
+            color: white;
+            text-align: center;
+            border-radius: 6px;
+            position: absolute;
+            bottom: 45px;
+            font-family: sans-serif;
+            left: 50%;
+            transform: translateX(-50%);
+            transition-duration: 0.2s;
+            background-color: rgba(25, 25, 25, 0.8);
+        }
+        .discord-info:hover .discord-info-text {
+            visibility: visible;
+            opacity: 1;
+        }
+        .discord-info-image {
+            margin-top: 15px;
+            color: white;
+            height: 32px;
+            width: 40px;
+        }
+        .discord-info-image:hover {
+            cursor: pointer;
+        }
+        .cover {
+            top: 0;
+            left: 0;
+            opacity: 1;
+            width: 100%;
+            height: 100vh;
+            cursor: pointer;
+            position: fixed;
+            text-align: center;
+            background-color: rgb(0, 0, 0, 1);
+            transition: opacity .5s;
+            z-index: 300;
+        }
+        .cover:hover {
+            cursor: pointer;
+        }
+        @keyframes textPulse {
+            0% {
+                text-shadow: 0px 0px 10px white;
+            }
+            50% {
+                text-shadow: 0px 0px 20px white;
+            }
+            100% {
+                text-shadow: 0px 0px 10px white;
+            }
+        }
+        .click-to-enter {
+            position: absolute;
+            top: 50%;
+            left: 50%;
+            transform: translate(-50%, -50%);
+            color: white;
+            font-size: 32px;
+            text-align: center;
+            animation: textPulse 3s infinite;
+        }
+        #background-vid {
+            position: fixed;
+            top: 0;
+            right: 0;
+            bottom: 0;
+            left: 0;
+            overflow: hidden;
+            z-index: -1;
+            width: 100%;
+            height: 100%;
+            object-fit: cover; 
+        }
+    </style>
+</head>
+<body>
+<div class="cover" id="cover" onclick="if (!window.__cfRLUnblockHandlers) return false; Onenter();" data-cf-modified-9c4767e918d6dd02199a44f3-="">
+<a class="click-to-enter">Click to enter</a>
+</div>
+<header>
+<video id="background-vid" loop="">
+<source src="media/dansen.mp4" type="video/mp4">
+</video>
+</header>
+<div class="container">
+<img class="banner" src="images/Blank-Transparent-Square.png">
+<img class="profile" src="https://cdn.discordapp.com/avatars/1171592631629914253/e8af5af9318a04487d3ced6c41e79b5f?size=1024">
+<a class="username">anti</a>
+<div class="description-container">
+<a class="description" id="description"> - Love bypassing anticheats</a>
+<a class="description" id="description"> - Pro Playfab/Photon skid</a>
+</div>
+<div class="discord-info">
+<span class="discord-info-text">@mscorlib.dll</span>
+<img class="discord-info-image" onclick="if (!window.__cfRLUnblockHandlers) return false; window.location.href ='https://discord.com/users/1171592631629914253'" src="images/20-200938_discord-png.png" data-cf-modified-9c4767e918d6dd02199a44f3-="">
+</div>
+</div>
+<script src="js/rocket-loader.min.js" data-cf-settings="9c4767e918d6dd02199a44f3-|49" defer=""></script>
+<script src="js/particles.js" type="9c4767e918d6dd02199a44f3-text/javascript"></script>
+<script type="9c4767e918d6dd02199a44f3-text/javascript">
+    particlesJS.load("cover", "../particle-cfg.json");
+    var clickenterthingy = document.querySelector(".cover");
+    function Onenter() {
+      clickenterthingy.style.opacity = 0;
+      clickenterthingy.addEventListener('transitionend', function(event) {
+        if (event.propertyName === 'opacity') {
+          clickenterthingy.remove();
+          var bgAudio = document.getElementById("background-vid"); 
+          bgAudio.play();
+        }
+      });
+      function updateTitle() {
+        document.title = document.title.substring(1) + document.title[0];
+        setTimeout(updateTitle, 500); 
+      }
+      updateTitle();
+    }
+    
+</script>
+</body></html>
